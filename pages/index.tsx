@@ -1,8 +1,9 @@
-import Head from "next/head";
 import { Container, Slider, Typography } from "@mui/material";
+import Head from "next/head";
+
+import Copyright from "../components/Copyright";
 import PopoverMenu from "../components/PopoverMenu";
 import ProTip from "../components/ProTip";
-import Copyright from "../components/Copyright";
 
 export default function Home() {
   return (
